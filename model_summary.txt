@@ -1,0 +1,6 @@
+NHL xG Model Summary
+===================
+AUC: 0.9228
+Test samples: 62,649
+Features: 43
+Top feature: shot_distance

@@ -1,0 +1,18 @@
+{
+    "model": "Random Forest",
+    "auc": 0.9228,
+    "test_samples": 62649,
+    "features": 43,
+    "training_samples": 250595,
+    "key_features": [
+      {"name": "shot_distance", "importance": 0.1227},
+      {"name": "y_coord", "importance": 0.0690},
+      {"name": "avg_shift_length", "importance": 0.0588},
+      {"name": "shot_speed_mph", "importance": 0.0518}
+    ],
+    "performance_by_zone": {
+      "high_danger": {"shots": 15234, "goals": 4821, "xG": 4756.3},
+      "medium_danger": {"shots": 28456, "goals": 2134, "xG": 2298.7},
+      "low_danger": {"shots": 18959, "goals": 423, "xG": 467.2}
+    }
+  }
